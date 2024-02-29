@@ -27,6 +27,9 @@ values ('My Chemical Romance');
 insert into musician (name)
 values ('Moby');
 
+insert into musician (name)
+values ('The Rasmus');
+
 -- Заполняем таблицу жанров
 
 insert into music_genre (name)
@@ -72,6 +75,9 @@ values ('Three Cheers for Sweet Revenge', 2018);
 
 insert into album (name, release_year)
 values ('Play', 1999);
+
+insert into album (name, release_year)
+values ('Peep', 1996);
 
 -- Заполняем таблицу треков
 
@@ -125,6 +131,9 @@ values ('My Interlude', 8, 57);
 
 insert into track (name, id_album, duration)
 values ('Why Does My Heart Feel So Bad?', 9, 265);
+
+insert into track (name, id_album, duration)
+values ('Myself', 10, 230);
 
 
 -- Заполняем таблицу сборников
@@ -182,6 +191,9 @@ values (8, 8);
 insert into album_musician (id_musician, id_album)
 values (9, 9);
 
+insert into album_musician (id_musician, id_album)
+values (10, 10);
+
 -- Заполняем таблицу музыкантов с жанрами
 
 insert  into musician_genres (id_musician, id_genre)
@@ -216,6 +228,9 @@ values (8, 5);
 
 insert  into musician_genres (id_musician, id_genre)
 values (9, 1);
+
+insert  into musician_genres (id_musician, id_genre)
+values (10, 5);
 
 -- Заполняем таблицу сборников с треками
 
